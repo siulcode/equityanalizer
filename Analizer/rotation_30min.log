@@ -1,0 +1,25 @@
+[2025-09-18 06:51:39] [XAU-30MIN] Starting equity log rotation for XAU 30-minutes terminal...
+[2025-09-18 06:51:39] [XAU-30MIN] Created archive directory: C:\Users\maste\OneDrive\Documentos\MT4 custom bots\equityanalizer\archived_logs\xau-30-minutes
+[2025-09-18 06:51:39] [XAU-30MIN] Current log file size: 0.01 MB
+[2025-09-18 06:51:39] [XAU-30MIN] Archived log file to: C:\Users\maste\OneDrive\Documentos\MT4 custom bots\equityanalizer\archived_logs\xau-30-minutes\EquityLogClean_2025-09-17.csv
+[2025-09-18 06:51:39] [XAU-30MIN] MT4 will automatically create a new log file when needed
+[2025-09-18 06:51:39] [XAU-30MIN] No old archives to clean up
+[2025-09-18 06:51:39] [XAU-30MIN] Equity log rotation completed successfully for XAU 30-minutes terminal
+[2025-09-18 06:54:35] [XAU-30MIN] Starting equity log rotation for XAU 30-minutes terminal...
+[2025-09-18 06:54:35] [XAU-30MIN] Current log file size: 0.01 MB
+[2025-09-18 06:54:35] [XAU-30MIN] Archived log file to: C:\Users\maste\OneDrive\Documentos\archived_logs\xau-30-minutes\EquityLogClean_2025-09-17_1.csv
+[2025-09-18 06:54:35] [XAU-30MIN] MT4 will automatically create a new log file when needed
+[2025-09-18 06:54:35] [XAU-30MIN] No old archives to clean up
+[2025-09-18 06:54:35] [XAU-30MIN] Equity log rotation completed successfully for XAU 30-minutes terminal
+[2025-09-18 07:00:00] [XAU-30MIN] Starting equity log rotation for XAU 30-minutes terminal...
+[2025-09-18 07:00:00] [XAU-30MIN] Current log file size: 0.01 MB
+[2025-09-18 07:00:01] [XAU-30MIN] Archived log file to: C:\Users\maste\OneDrive\Documentos\archived_logs\xau-30-minutes\EquityLogClean_2025-09-17_2.csv
+[2025-09-18 07:00:01] [XAU-30MIN] MT4 will automatically create a new log file when needed
+[2025-09-18 07:00:01] [XAU-30MIN] No old archives to clean up
+[2025-09-18 07:00:01] [XAU-30MIN] Equity log rotation completed successfully for XAU 30-minutes terminal
+[2025-09-19 07:00:03] [XAU-30MIN] Starting equity log rotation for XAU 30-minutes terminal...
+[2025-09-19 07:00:03] [XAU-30MIN] Current log file size: 2.18 MB
+[2025-09-19 07:00:03] [XAU-30MIN] Archived log file to: C:\Users\maste\OneDrive\Documentos\archived_logs\xau-30-minutes\EquityLogClean_2025-09-18.csv
+[2025-09-19 07:00:03] [XAU-30MIN] MT4 will automatically create a new log file when needed
+[2025-09-19 07:00:03] [XAU-30MIN] No old archives to clean up
+[2025-09-19 07:00:03] [XAU-30MIN] Equity log rotation completed successfully for XAU 30-minutes terminal

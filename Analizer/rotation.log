@@ -1,0 +1,13 @@
+[2025-09-18 06:45:01] Starting equity log rotation...
+[2025-09-18 06:45:01] Created archive directory: C:\Users\maste\OneDrive\Documentos\MT4 custom bots\equityanalizer\archived_logs
+[2025-09-18 06:45:01] Current log file size: 0.02 MB
+[2025-09-18 06:45:01] Archived log file to: C:\Users\maste\OneDrive\Documentos\MT4 custom bots\equityanalizer\archived_logs\EquityLogClean_2025-09-17.csv
+[2025-09-18 06:45:01] MT4 will automatically create a new log file when needed
+[2025-09-18 06:45:01] No old archives to clean up
+[2025-09-18 06:45:01] Equity log rotation completed successfully
+[2025-09-18 06:45:51] Starting equity log rotation...
+[2025-09-18 06:45:51] Current log file size: 0 MB
+[2025-09-18 06:45:51] Archived log file to: C:\Users\maste\OneDrive\Documentos\MT4 custom bots\equityanalizer\archived_logs\EquityLogClean_2025-09-17_1.csv
+[2025-09-18 06:45:51] MT4 will automatically create a new log file when needed
+[2025-09-18 06:45:51] No old archives to clean up
+[2025-09-18 06:45:51] Equity log rotation completed successfully
