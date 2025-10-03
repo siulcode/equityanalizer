@@ -14,7 +14,14 @@ function Write-Log {
     $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     $logMessage = "[$timestamp] [XAU-30MIN] $Message"
     Write-Host $logMessage
-    Add-Content -Path "$PSScriptRoot\rotation_30min.log" -Value $logMessage
+    
+    # Create logs directory if it doesn't exist
+    $logsDir = Join-Path $ArchiveDir "logs"
+    if (-not (Test-Path $logsDir)) {
+        New-Item -ItemType Directory -Path $logsDir -Force | Out-Null
+    }
+    
+    Add-Content -Path "$logsDir\rotation_30min.log" -Value $logMessage
 }
 
 try {

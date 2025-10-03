@@ -1,18 +1,18 @@
-# Equity Log Rotation Script - XAU 5-Minutes Terminal
+# Equity Log Rotation Script - XAU 5-Minutes with Position Monitor Terminal
 # This script rotates the EquityLogClean.csv file daily at 7am
-# It archives the current file with a date suffix for the 5-minute trading strategy
+# It archives the current file with a date suffix for the 5-minute trading strategy with position monitor
 # MT4 will automatically create a new file when needed
 
 param(
-    [string]$LogPath = "C:\Users\maste\AppData\Roaming\MetaQuotes\Terminal\86A291B1D90FFC0E898CD5E9CF51C4F1\MQL4\Files\EquityLogClean.csv",
-    [string]$ArchiveDir = "C:\Users\maste\OneDrive\Documentos\archived_logs\xau-5-minutes"
+    [string]$LogPath = "C:\Users\maste\AppData\Roaming\MetaQuotes\Terminal\FD57D4F19F760606F497C3C51A5937CE\MQL4\Files\EquityLogClean.csv",
+    [string]$ArchiveDir = "C:\Users\maste\OneDrive\Documentos\archived_logs\xau-5-minutes-with-monitor"
 )
 
 # Function to write log messages
 function Write-Log {
     param([string]$Message)
     $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    $logMessage = "[$timestamp] [XAU-5MIN] $Message"
+    $logMessage = "[$timestamp] [XAU-5MIN-MONITOR] $Message"
     Write-Host $logMessage
     
     # Create logs directory if it doesn't exist
@@ -21,11 +21,11 @@ function Write-Log {
         New-Item -ItemType Directory -Path $logsDir -Force | Out-Null
     }
     
-    Add-Content -Path "$logsDir\rotation_5min.log" -Value $logMessage
+    Add-Content -Path "$logsDir\rotation_5mins_monitor.log" -Value $logMessage
 }
 
 try {
-    Write-Log "Starting equity log rotation for XAU 5-minutes terminal..."
+    Write-Log "Starting equity log rotation for XAU 5-minutes with position monitor terminal..."
     
     # Create archive directory if it doesn't exist
     if (-not (Test-Path $ArchiveDir)) {
@@ -93,7 +93,7 @@ try {
         Write-Log "Cleaned up $deletedCount old archive files"
     }
     
-    Write-Log "Equity log rotation completed successfully for XAU 5-minutes terminal"
+    Write-Log "Equity log rotation completed successfully for XAU 5-minutes with position monitor terminal"
     
 } catch {
     Write-Log "ERROR: $($_.Exception.Message)"
